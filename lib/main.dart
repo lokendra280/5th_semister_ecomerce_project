@@ -2,6 +2,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:khalti_flutter/khalti_flutter.dart';
 import 'package:provider/provider.dart';
+import 'package:shooping_app/auth/login.dart';
 import 'package:shooping_app/screen/edit_product_screen.dart';
 import './providers/cart.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
@@ -50,7 +51,7 @@ class MyApp extends StatelessWidget {
                 accentColor: Colors.deepOrange,
                 fontFamily: 'Lato',
               ),
-              home: ProductsOverviewScreen(),
+              home: const LoginPage(),
               navigatorKey: navkey,
               localizationsDelegates: const [
                 KhaltiLocalizations.delegate
