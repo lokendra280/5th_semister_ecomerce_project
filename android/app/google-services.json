@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "263222611392",
+    "project_id": "shooping-app-716fb",
+    "storage_bucket": "shooping-app-716fb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:263222611392:android:e54d33c0c3d6ed6b31cc25",
+        "android_client_info": {
+          "package_name": "com.example.shooping_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "263222611392-pv7ab3tdgtu0lje8t223hsg1kf1cu52i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shooping_app",
+            "certificate_hash": "f5af3c864827785e5a068f4340e49893504b5d7f"
+          }
+        },
+        {
+          "client_id": "263222611392-pgpa534id91i48668cgq5kl0bm91jd8v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAG7GfMp1RLl3wgVB47AS-91wx6kBRDIRc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "263222611392-pgpa534id91i48668cgq5kl0bm91jd8v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
