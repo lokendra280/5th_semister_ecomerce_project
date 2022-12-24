@@ -1,41 +1,33 @@
 {
   "project_info": {
-    "project_number": "263222611392",
-    "project_id": "shooping-app-716fb",
-    "storage_bucket": "shooping-app-716fb.appspot.com"
+    "project_number": "668185580352",
+    "project_id": "shoping-app-6158c",
+    "storage_bucket": "shoping-app-6158c.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:263222611392:android:e54d33c0c3d6ed6b31cc25",
+        "mobilesdk_app_id": "1:668185580352:android:5ad861323bba5701fa60a5",
         "android_client_info": {
           "package_name": "com.example.shooping_app"
         }
       },
       "oauth_client": [
         {
-          "client_id": "263222611392-pv7ab3tdgtu0lje8t223hsg1kf1cu52i.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.example.shooping_app",
-            "certificate_hash": "f5af3c864827785e5a068f4340e49893504b5d7f"
-          }
-        },
-        {
-          "client_id": "263222611392-pgpa534id91i48668cgq5kl0bm91jd8v.apps.googleusercontent.com",
+          "client_id": "668185580352-igokg826tvne5ml1mmnv0paedtvbp8li.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAG7GfMp1RLl3wgVB47AS-91wx6kBRDIRc"
+          "current_key": "AIzaSyBIpRsB__8aOggAV9V4zH1VY4V1y-9XlTA"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "263222611392-pgpa534id91i48668cgq5kl0bm91jd8v.apps.googleusercontent.com",
+              "client_id": "668185580352-igokg826tvne5ml1mmnv0paedtvbp8li.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

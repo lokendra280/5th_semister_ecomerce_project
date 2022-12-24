@@ -12,7 +12,7 @@ import 'screen/products_overview_screen.dart';
 import 'providers/products.dart';
 import './screen/cart_screen.dart';
 import './providers/orders.dart';
-import './screen/orders_screen.dart';
+import 'screen/orders/orders_screen.dart';
 import './screen/user_products_screen.dart';
 
 void main() async {
@@ -51,7 +51,7 @@ class MyApp extends StatelessWidget {
                 accentColor: Colors.deepOrange,
                 fontFamily: 'Lato',
               ),
-              home: const LoginPage(),
+              home: ProductsOverviewScreen(),
               navigatorKey: navkey,
               localizationsDelegates: const [
                 KhaltiLocalizations.delegate

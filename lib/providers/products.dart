@@ -67,12 +67,10 @@ class Products with ChangeNotifier {
   //   notifyListeners();
   // }
 
-  void addProduct(Product product) {
-    final url = Uri.https(
-        'https://shooping-app-716fb-default-rtdb.firebaseio.com/products.json',
-        '/products.json');
+  Future<void> addProduct(Product product) async {
     http.post(
-      url,
+      Uri.parse(
+          'https://shoping-app-6158c-default-rtdb.firebaseio.com/products.json'),
       body: json.encode({
         'title': product.title,
         'description': product.description,
