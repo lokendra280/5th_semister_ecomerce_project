@@ -8,6 +8,7 @@
 
 import 'package:cloud_firestore_web/cloud_firestore_web.dart';
 import 'package:device_info_plus_web/device_info_plus_web.dart';
+import 'package:firebase_auth_web/firebase_auth_web.dart';
 import 'package:firebase_core_web/firebase_core_web.dart';
 import 'package:package_info_plus_web/package_info_plus_web.dart';
 import 'package:url_launcher_web/url_launcher_web.dart';
@@ -17,6 +18,7 @@ void registerPlugins([final Registrar? pluginRegistrar]) {
   final Registrar registrar = pluginRegistrar ?? webPluginRegistrar;
   FirebaseFirestoreWeb.registerWith(registrar);
   DeviceInfoPlusPlugin.registerWith(registrar);
+  FirebaseAuthWeb.registerWith(registrar);
   FirebaseCoreWeb.registerWith(registrar);
   PackageInfoPlugin.registerWith(registrar);
   UrlLauncherPlugin.registerWith(registrar);

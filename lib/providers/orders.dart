@@ -9,14 +9,12 @@ class OrderItem {
   final double amount;
   final List<CartItem> products;
   final DateTime dateTime;
-  // final Text text;
 
   OrderItem({
     required this.id,
     required this.amount,
     required this.products,
     required this.dateTime,
-    // required this.text,
   });
 }
 
@@ -79,11 +77,10 @@ class Orders with ChangeNotifier {
     _orders.insert(
       0,
       OrderItem(
-        id: json.decode(response.body)['name'],
+        id: DateTime.now().toString(),
         amount: total,
         dateTime: timestamp,
         products: cartProducts,
-        // text: Text('Order Now'),
       ),
     );
     notifyListeners();

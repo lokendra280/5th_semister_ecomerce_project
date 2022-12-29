@@ -47,6 +47,7 @@ dependencies:
   line_awesome_flutter: ^2.0.0
   device_info_plus: ^3.2.4
   dio: ^4.0.6
+  firebase_auth: 
   flutter_riverpod: ^2.1.1
 
 dev_dependencies:

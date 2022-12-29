@@ -31,13 +31,13 @@ class _OrdersScreenState extends State<OrdersScreen> {
     final orderData = Provider.of<Orders>(context);
     return Scaffold(
       appBar: AppBar(
-        title: Text('Your Orders'),
+        title: const Text(' Orders Requested'),
         actions: <Widget>[
           IconButton(
             onPressed: () {
               payWithKhaltiInApp();
             },
-            icon: Icon(Icons.save),
+            icon: const Icon(Icons.save),
           )
         ],
       ),
@@ -52,7 +52,7 @@ class _OrdersScreenState extends State<OrdersScreen> {
   payWithKhaltiInApp() {
     KhaltiScope.of(context).pay(
         config: PaymentConfig(
-            amount: 1000,
+            amount: 5000,
             productIdentity: "product id",
             productName: "product name"),
         preferences: [

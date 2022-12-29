@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:khalti_flutter/khalti_flutter.dart';
 import 'package:provider/provider.dart';
 import '../providers/cart.dart' show Cart;
 import '../widget/card_item.dart';
@@ -26,6 +27,7 @@ class CartScreen extends StatelessWidget {
                     'Total',
                     style: TextStyle(fontSize: 20),
                   ),
+                  const Spacer(),
                   const Spacer(),
                   Chip(
                     label: Text(
@@ -98,3 +100,42 @@ class _OrderButtonState extends State<OrderButton> {
     );
   }
 }
+
+//   payWithKhaltiInApp() {
+//     KhaltiScope.of(context).pay(
+//         config: PaymentConfig(
+//             amount: 5000,
+//             productIdentity: "product id",
+//             productName: "product name"),
+//         preferences: [
+//           PaymentPreference.khalti,
+//           PaymentPreference.connectIPS,
+//           PaymentPreference.eBanking,
+//           PaymentPreference.mobileBanking,
+//         ],
+//         onSuccess: onSucess,
+//         onFailure: onFailure);
+//   }
+
+//   void onSucess(PaymentSuccessModel successModel) {
+//     showDialog(
+//         context: context,
+//         builder: (context) {
+//           return AlertDialog(
+//             title: const Text("Payment sucessfull"),
+//             actions: [
+//               SimpleDialogOption(
+//                 child: const Text("ok"),
+//                 onPressed: () {
+//                   Navigator.pop(context);
+//                 },
+//               )
+//             ],
+//           );
+//         });
+//   }
+
+//   void onFailure(PaymentFailureModel failure) {
+//     debugPrint(failure.toString());
+//   }
+// }
